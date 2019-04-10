@@ -1,0 +1,24 @@
+{
+    "name": "qna-bot-v-4",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
+        },
+        {
+            "type": "qna",
+            "name": "my-test-kb",
+            "kbId": "",
+            "hostname": "",
+            "endpointKey": "",
+            "subscriptionKey": "",
+            "id": "123"
+        }  
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
